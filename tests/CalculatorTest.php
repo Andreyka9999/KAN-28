@@ -25,8 +25,8 @@ class CalculatorTest extends TestCase
     public function testSubtract()
     {
         $calculator = new Calculator();
-        $this->assertEquals(1, $calculator->substract(3, 2));
-        $this->assertEquals(5, $calculator->substract(2, -3));
+        $this->assertEquals(1, $calculator->subtract(3, 2));
+        $this->assertEquals(5, $calculator->subtract(2, -3));
     }
 
     // Test for multiplying two numbers.
